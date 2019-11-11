@@ -1,22 +1,57 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.issues--FullWrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.issues--individualwrapper {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid black;
+  border-left: 1px ridge black;
+  width: 50rem;
+  list-style-type: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.title {
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.topicTitle {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.description {
+  text-align: left;
+}
+
+.updatedLast {
+  font-weight: bold; 
+  padding: 0 0 0;
+}
+
+.topicheaderWrap {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+}
+
+.avatar {
+  padding: 0 0 0;
+  border: 2px solid black;
+  height: 5rem;
+  width: 5rem;
+}
+
+.number {
+  font-size: 2rem;
+  border: 2px solid black;
 }
